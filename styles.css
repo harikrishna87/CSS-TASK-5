@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: url(https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+span {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #D3D3D3;
+  padding: 15px;
+}
+
+span h2 {
+  display: inline;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.span-item {
+  display: inline;
+  float: inline-end;
+}
+
+.span-item a {
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 35px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.span-item a:hover {
+  color: blueviolet;
+}
+
+
+.border {
+  position: sticky;
+  top: 65px;
+  margin: 10px;
+}
+.border-item {
+  height: 85px;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  border: 2px solid green;
+  padding: 10px;
+  background: linear-gradient(to right, orange, red, lightgreen);
+  box-shadow: 4px 4px 3px gray;
+  position: relative;
+}
+
+.border1 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.border2 {
+  position: absolute;
+  top: 25px ;
+  left: 37%;
+
+}
+.border3 {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+
+.container {
+  border: 3px solid red;
+  border-radius: 10px;
+  margin: 10px;
+}
+.p {
+  font-size: 20px;
+  text-indent: 20px;
+  padding: 10px;
+  color: black;
+}
+
+.image1, .image2, .image3 {
+  margin: 10px;
+}
+.image1 img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border: 1px solid;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.image2 img {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+  border: 1px solid;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px grey;
+}
+  .image3 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px grey;
+  }
+footer {
+  background-color: green;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
